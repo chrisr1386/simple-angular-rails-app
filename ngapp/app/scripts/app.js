@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('notesApp', ['ngResource'])
+angular.module('myApp', ['ngResource'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
